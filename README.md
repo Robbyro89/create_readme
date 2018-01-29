@@ -37,7 +37,7 @@ Les vues sont ce que l'utilisateur voit: HTML, CSS, XML, Javascript, JSON. Ils s
 à l'aide du schéma suivant:
 
 ![Schéma MVC](/home/fabien/Images/mvc_schematic.png)
-*Le lien ne fonctionne pas, je n'ai pas trouver la raison pour laquelle le schéma ne s'affiche pas, j'ai pourtant bien suivant les instructions et pris le bon chemin pour importer la photo depuis mon dossier...*
+*(Le lien ne fonctionne pas, je n'ai pas trouver la raison pour laquelle le schéma ne s'affiche pas, j'ai pourtant bien suivant les instructions et pris le bon chemin pour importer la photo depuis mon dossier...)*
 ___
 
 ##### Les routes:
