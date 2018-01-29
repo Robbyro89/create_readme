@@ -12,7 +12,7 @@ ___
 * On entend par page statique, non pas une page sans mouvements ou sans animations, mais une page visible telle qu'elle a été conçue.
 * Ces pages peuvent présenter toute forme de contenu, animations flash, images, musique, vidéo etc... mais elles sont toujours présentées de la même façon. Elles ne changent pas et c'est en ce sens qu'elles sont statiques.
 
-###### 1. Sites Dynamiques:
+###### 2. Sites Dynamiques:
 * En opposition aux pages statiques, les pages dynamiques permettent de présenter les informations de différentes manières selon l'interaction avec le visiteur. 
 * Les pages sont alors construites "à la volée" grâce à une programmation conçue par le webmaster.
 * Le contenu est issu d'une base de données en fonction de critères établis par l'internaute puis mis en page en temps réel. 
@@ -21,7 +21,7 @@ C'est le cas par exemple d'un site e-commerce: présentation des articles par th
 * C'est aussi le cas d'un système de mises à jour.
 ___
 
-##### Les MVC:
+##### Les MVC: **M**(odel) **V**(iew) **C**(ontroller)
 
 ###### 1. Controller:
 * Les contrôleurs effectuent le travail d'analyse des requêtes des utilisateurs, des soumissions de données, des cookies, des sessions et du «contenu du navigateur». Ils sont le gestionnaire aux cheveux pointus qui commande les employés autour.
@@ -36,7 +36,8 @@ Les vues sont ce que l'utilisateur voit: HTML, CSS, XML, Javascript, JSON. Ils s
 ###### 1. Vue d'ensemble du fonctionnement de la **MVC**:
 à l'aide du schéma suivant:
 
-![Schéma MVC](/home/user/Images/mvc_schematic.png)
+![Schéma MVC](/home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_4/1_Lundi/create_readme/mvc_schematic.png)
+Format: ![Alt Text](url)
 ___
 
 ##### Les routes:
