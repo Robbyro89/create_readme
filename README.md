@@ -21,7 +21,7 @@ C'est le cas par exemple d'un site e-commerce: présentation des articles par th
 * C'est aussi le cas d'un système de mises à jour.
 ___
 
-##### Les MVC: **M**(odel) **V**(iew) **C**(ontroller)
+##### Les MVC: Model View Controller
 
 ###### 1. Controller:
 * Les contrôleurs effectuent le travail d'analyse des requêtes des utilisateurs, des soumissions de données, des cookies, des sessions et du «contenu du navigateur». Ils sont le gestionnaire aux cheveux pointus qui commande les employés autour.
@@ -36,8 +36,8 @@ Les vues sont ce que l'utilisateur voit: HTML, CSS, XML, Javascript, JSON. Ils s
 ###### 1. Vue d'ensemble du fonctionnement de la **MVC**:
 à l'aide du schéma suivant:
 
-![Schéma MVC](/home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_4/1_Lundi/create_readme/mvc_schematic.png)
-Format: ![Alt Text](url)
+![Schéma MVC](/home/fabien/Images/mvc_schematic.png)
+*Le lien ne fonctionne pas, je n'ai pas trouver la raison pour laquelle le schéma ne s'affiche pas, j'ai pourtant bien suivant les instructions et pris le bon chemin pour importer la photo depuis mon dossier...*
 ___
 
 ##### Les routes:
