@@ -1,0 +1,16 @@
+<h1>Mon article !</h1>
+<h2><%= @article.title %></h2>
+<p><%= @article.text %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @article.text %>
+</p>
+ 
+<%= link_to "Editer", edit_article_path(@article) %> |
+<%= link_to "Retour a l'envoyeur" , articles_path %>
