@@ -1,6 +1,6 @@
 ___
 
-#Bienvenue dans le **README**:
+Alt-h1 Bienvenue dans le **README**:
 
 ##Sur les concepts de Ruby on Rails
 ___
