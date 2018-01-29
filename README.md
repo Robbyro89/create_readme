@@ -1,7 +1,9 @@
 ___
+___
 
 # Bienvenue dans le **README** :
 ## sur des concept de Ruby on Rails.
+___
 ___
 
 ##### Site Statiques Vs Sites Dynamiques:
@@ -35,7 +37,7 @@ Les vues sont ce que l'utilisateur voit: HTML, CSS, XML, Javascript, JSON. Ils s
 ###### 1. Vue d'ensemble du fonctionnement de la **MVC**:
 à l'aide du schéma suivant:
 
-![Schéma MVC](/images/mvc_schematic.png)
+![Schéma MVC]/home/fabien/Images/mvc_schematic.png)
 ___
 
 ##### Les routes:
@@ -59,10 +61,9 @@ ___
 
 ##### Le concept de Migration:
 
-* Migrations are a convenient way for you to alter your database in a structured and organized manner. You could edit fragments of SQL by hand but you would then be responsible for telling other developers that they need to go and run them. You’d also have to keep track of which changes need to be run against the production machines next time you deploy.
-
-* Active Record tracks which migrations have already been run so all you have to do is update your source and run rake db:migrate. Active Record will work out which migrations should be run. It will also update your db/schema.rb file to match the structure of your database.
-* Migrations also allow you to describe these transformations using Ruby. The great thing about this is that (like most of Active Record’s functionality) it is database independent: you don’t need to worry about the precise syntax of CREATE TABLE any more than you worry about variations on SELECT * (you can drop down to raw SQL for database specific features). For example you could use SQLite3 in development, but MySQL in production
+* Les migrations sont un moyen pratique de modifier votre base de données de manière structurée et organisée. Vous pouvez éditer des fragments de SQL à la main, mais vous devrez alors indiquer aux autres développeurs qu'ils doivent les exécuter. Vous devez également garder la trace des modifications qui doivent être exécutées sur les machines de production la prochaine fois que vous déployez.
+* Active Record trace les migrations qui ont déjà été exécutées. Il vous suffit de mettre à jour votre source et d'exécuter rake db: migrate. Active Record déterminera quelles migrations doivent être exécutées. Il mettra également à jour votre fichier db / schema.rb pour qu'il corresponde à la structure de votre base de données.
+* Les migrations vous permettent également de décrire ces transformations en utilisant Ruby. Ce qui est génial, c'est que (comme la plupart des fonctionnalités d'Active Record), il est indépendant de la base de données: vous n'avez pas besoin de vous préoccuper de la syntaxe précise de *create table*, pas plus que vous ne craignez les variations sur *select*. SQL pour les fonctionnalités spécifiques à la base de données). Par exemple vous pourriez utiliser SQLite3 en développement, mais MySQL en production
 ___
 
 ##### Les relations entre les models des BDD:
@@ -75,12 +76,12 @@ ___
 
 ##### Les fonctions du CRUD:
 
-* **C**(reate)**R**(ead)**U**(pdate)**D**(elete) désigne les quatre opérations de base pour la persistance des données, en particulier le stockage d'informations en base de données.
+* **C**(reate) **R**(ead) **U**(pdate) **D**(elete) désigne les quatre opérations de base pour la persistance des données, en particulier le stockage d'informations en base de données.
 * Plus généralement, il désigne les opérations permettant la gestion d'une collection d'éléments par une utilisation en front end.
 * Application dans les bases de données (tableau ci-dessous):
 
 | Operation | SQL    | HTTP   |
-|-----------------------------|
+| --------- | ------ | ------ |
 | Create    | INSERT | POST   |
 | Read      | UPDATE | GET    |
 | Update    | UPDATE | PUT    |
