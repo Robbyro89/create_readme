@@ -1,6 +1,6 @@
 ___
 #Bienvenue dans le README:
-> ##Sur les concepts de Ruby on Rails
+##Sur les concepts de Ruby on Rails
 ___
 
 Sites Statiques:
