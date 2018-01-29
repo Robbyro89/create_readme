@@ -37,37 +37,33 @@ Les vues sont ce que l'utilisateur voit: HTML, CSS, XML, Javascript, JSON. Ils s
 ###### 1. Vue d'ensemble du fonctionnement de la **MVC**:
 à l'aide du schéma suivant:
 
-![Schéma MVC]/home/fabien/Images/mvc_schematic.png)
+![Schéma MVC](/home/fabien/Images/mvc_schematic.png)
 ___
 
 ##### Les routes:
-
-Les routes permettent d’interpréter les URL et d’orienter vers les bonnes actions des controlleurs. La configuration se trouve dans le fichier config/routes.rb.
+  Les routes permettent d’interpréter les URL et d’orienter vers les bonnes actions des controlleurs. La configuration se trouve dans le fichier config/routes.rb.
 ___
 
 ##### Les Base de Donnees:
-
-Une base de données (database en anglais), permet de stocker et de retrouver l'intégralité de données brutes ou d'informations en rapport avec un thème ou une activité ; celles-ci peuvent être de natures différentes et plus ou moins reliées entre elles1,2. Dans la très grande majorité des cas, ces informations sont très structurées, et la base est localisée dans un même lieu et sur un même support. Ce dernier est généralement informatisé.
+  Une base de données (database en anglais), permet de stocker et de retrouver l'intégralité de données brutes ou d'informations en rapport avec un thème ou une activité ; celles-ci peuvent être de natures différentes et plus ou moins reliées entre elles1,2. Dans la très grande majorité des cas, ces informations sont très structurées, et la base est localisée dans un même lieu et sur un même support. Ce dernier est généralement informatisé.
 ___
 
 ##### Get Vs Post:
 
 ###### 1. Get:
-C'est une méthode HTTP pour faire des requêtes sur Internet.
+  C'est une méthode HTTP pour faire des requêtes sur Internet.
 
 ###### 1. Post:
-Une demande utilisant la méthode POST doit agir sur la collection de ressources; ajouter une nouvelle ressource à la collection
+  Une demande utilisant la méthode POST doit agir sur la collection de ressources; ajouter une nouvelle ressource à la collection
 ___
 
 ##### Le concept de Migration:
-
 * Les migrations sont un moyen pratique de modifier votre base de données de manière structurée et organisée. Vous pouvez éditer des fragments de SQL à la main, mais vous devrez alors indiquer aux autres développeurs qu'ils doivent les exécuter. Vous devez également garder la trace des modifications qui doivent être exécutées sur les machines de production la prochaine fois que vous déployez.
 * Active Record trace les migrations qui ont déjà été exécutées. Il vous suffit de mettre à jour votre source et d'exécuter rake db: migrate. Active Record déterminera quelles migrations doivent être exécutées. Il mettra également à jour votre fichier db / schema.rb pour qu'il corresponde à la structure de votre base de données.
 * Les migrations vous permettent également de décrire ces transformations en utilisant Ruby. Ce qui est génial, c'est que (comme la plupart des fonctionnalités d'Active Record), il est indépendant de la base de données: vous n'avez pas besoin de vous préoccuper de la syntaxe précise de *create table*, pas plus que vous ne craignez les variations sur *select*. SQL pour les fonctionnalités spécifiques à la base de données). Par exemple vous pourriez utiliser SQLite3 en développement, mais MySQL en production
 ___
 
 ##### Les relations entre les models des BDD:
-
 * Modèle	
 Structure de données Intégrité des données Langage de définition de données Langage de requête
 * Données	
@@ -75,7 +71,6 @@ Champ Table Vue Procédure stockée Déclencheur
 ___
 
 ##### Les fonctions du CRUD:
-
 * **C**(reate) **R**(ead) **U**(pdate) **D**(elete) désigne les quatre opérations de base pour la persistance des données, en particulier le stockage d'informations en base de données.
 * Plus généralement, il désigne les opérations permettant la gestion d'une collection d'éléments par une utilisation en front end.
 * Application dans les bases de données (tableau ci-dessous):
