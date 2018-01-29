@@ -37,7 +37,7 @@ Les vues sont ce que l'utilisateur voit: HTML, CSS, XML, Javascript, JSON. Ils s
 ###### 1. Vue d'ensemble du fonctionnement de la **MVC**:
 à l'aide du schéma suivant:
 
-![Schéma MVC](/home/fabien/Images/mvc_schematic.png)
+![Schéma MVC](/fabien/Images/mvc_schematic.png)
 ___
 
 ##### Les routes:
