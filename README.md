@@ -11,7 +11,6 @@ ___
 ###### 1. Sites Statiques:
 * On entend par page statique, non pas une page sans mouvements ou sans animations, mais une page visible telle qu'elle a été conçue.
 * Ces pages peuvent présenter toute forme de contenu, animations flash, images, musique, vidéo etc... mais elles sont toujours présentées de la même façon. Elles ne changent pas et c'est en ce sens qu'elles sont statiques.
-___
 
 ###### 1. Sites Dynamiques:
 * En opposition aux pages statiques, les pages dynamiques permettent de présenter les informations de différentes manières selon l'interaction avec le visiteur. 
@@ -37,7 +36,7 @@ Les vues sont ce que l'utilisateur voit: HTML, CSS, XML, Javascript, JSON. Ils s
 ###### 1. Vue d'ensemble du fonctionnement de la **MVC**:
 à l'aide du schéma suivant:
 
-![Schéma MVC](/fabien/Images/mvc_schematic.png)
+![Schéma MVC](/home/user/Images/mvc_schematic.png)
 ___
 
 ##### Les routes:
