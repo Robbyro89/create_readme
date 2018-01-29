@@ -12,13 +12,18 @@ Sites Statiques:
 *Ces pages peuvent présenter toute forme de contenu, animations flash, images, musique, vidéo etc... mais elles sont toujours présentées de la même façon. Elles ne changent pas et c'est en ce sens qu'elles sont statiques.
 
 Sites Dynamiques:
-*En opposition aux pages statiques, les pages dynamiques permettent de présenter les informations de différentes manières selon l'interaction avec le visiteur. 
-*Les pages sont alors construites "à la volée" grâce à une programmation conçue par le webmaster.
-*Le contenu est issu d'une base de données en fonction de critères établis par l'internaute puis mis en page en temps réel. 
-C'est le cas par exemple d'un site e-commerce: présentation des articles par thèmes, couleurs, prix etc... 
-*C'est également le cas des blogs et des forums où les visiteurs peuvent participer au contenu du site. 
-*C'est aussi le cas d'un système de mises à jour.
 
+*En opposition aux pages statiques, les pages dynamiques permettent de présenter les informations de différentes manières selon l'interaction avec le visiteur.
+
+*Les pages sont alors construites "à la volée" grâce à une programmation conçue par le webmaster.
+
+*Le contenu est issu d'une base de données en fonction de critères établis par l'internaute puis mis en page en temps réel.
+C'est le cas par exemple d'un site e-commerce: présentation des articles par thèmes, couleurs, prix etc...
+
+*C'est également le cas des blogs et des forums où les visiteurs peuvent participer au contenu du site.
+
+*C'est aussi le cas d'un système de mises à jour.
+___
 
 Les MVC:
 Controller:
