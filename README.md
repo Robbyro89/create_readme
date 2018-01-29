@@ -6,7 +6,9 @@ Alt-h1 Bienvenue dans le **README**:
 ___
 
 Sites Statiques:
+
 *On entend par page statique, non pas une page sans mouvements ou sans animations, mais une page visible telle qu'elle a été conçue.
+
 *Ces pages peuvent présenter toute forme de contenu, animations flash, images, musique, vidéo etc... mais elles sont toujours présentées de la même façon. Elles ne changent pas et c'est en ce sens qu'elles sont statiques.
 
 Sites Dynamiques:
